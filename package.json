@@ -1,0 +1,28 @@
+{
+  "name": "rich-route-decorator",
+  "version": "0.0.10",
+  "description": "nodejs 路由系统",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "query",
+    "decorator"
+  ],
+  "files": [
+    "/dist"
+  ],
+  "author": "caiyong",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/router": "^12.0.1",
+    "koa": "^2.15.0",
+    "koa-body": "^6.0.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.14.0",
+    "ts-node": "^10.9.1"
+  }
+}
